@@ -103,6 +103,10 @@
     <room>rooms\room_Start</room>
     <room>rooms\room_Main</room>
   </rooms>
+  <constants number="2">
+    <constant name="LEVEL1_WIN">20</constant>
+    <constant name="LEVEL2_WIN">40</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>

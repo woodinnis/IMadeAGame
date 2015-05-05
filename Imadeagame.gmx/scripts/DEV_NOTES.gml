@@ -45,3 +45,10 @@ May the fourth be with us
         - Weapons no longer spawn on room start
         - Clicking anywhere in the play area will spawn a weapon
             - Slingshot mechanics are available immediately at spawn time
+
+13:50   Targets now spawn in random locations in the play area
+
+15:08   Win condition implemented
+        - G_winScore set at room start, in room creation code
+        - G_playerScore checked against G_winScore before each target spawns
+        - playerWin boolean checked on objOverlord DrawGUI Event
