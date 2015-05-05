@@ -13,6 +13,9 @@
       <sprite>sprites\sprICT</sprite>
       <sprite>sprites\sprFlailMan</sprite>
       <sprite>sprites\sprFireHydrant</sprite>
+      <sprites name="SHOT">
+        <sprite>sprites\sprHydrantShot</sprite>
+      </sprites>
     </sprites>
     <sprites name="WEAPON">
       <sprite>sprites\sprWeaponShoe</sprite>
@@ -98,14 +101,20 @@
     </objects>
     <object>objects\objHUD</object>
     <object>objects\objMenuHUD</object>
+    <objects name="SHOTS">
+      <object>objects\objHydrantShot</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_Start</room>
     <room>rooms\room_Main</room>
   </rooms>
-  <constants number="2">
+  <constants number="5">
     <constant name="LEVEL1_WIN">20</constant>
     <constant name="LEVEL2_WIN">40</constant>
+    <constant name="LEVEL3_WIN">60</constant>
+    <constant name="LEVEL4_WIN">80</constant>
+    <constant name="LEVEL5_WIN">100</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

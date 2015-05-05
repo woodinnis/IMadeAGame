@@ -52,3 +52,6 @@ May the fourth be with us
         - G_winScore set at room start, in room creation code
         - G_playerScore checked against G_winScore before each target spawns
         - playerWin boolean checked on objOverlord DrawGUI Event
+        
+16:38   objTargetFireHydrant now spawns a water jet that stops player motion
+        - objHydrantShot is instantiated every 2 seconds
