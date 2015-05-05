@@ -1,17 +1,9 @@
 // Code to execute on each step
 
-// If a target is present in the room but a weapon is not, spawn a weapon
+// If no target is present in the room, spawn a new target
 if(instance_exists(objTargetParent))
 {
-    if(!instance_exists(objWeaponParent))
-    {
-        randomize();
-        
-        spawnX = irandom_range(32, room_width - 32);
-        spawnY = irandom_range(32, room_height - 128 - 32);
-                
-        instance_create(spawnX, spawnY, G_currentWeapon);
-    }
+    // Do nothing
 }
 else
 {

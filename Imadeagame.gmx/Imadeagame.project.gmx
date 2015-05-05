@@ -38,11 +38,13 @@
       <script>scripts\scr_OverlordCreate.gml</script>
       <script>scripts\scr_OverlordRoomStart.gml</script>
       <script>scripts\scr_OverlordStep.gml</script>
+      <script>scripts\scr_Overlord_GlobLMB.gml</script>
     </scripts>
     <scripts name="WEAPON">
       <script>scripts\scr_WeaponLMBReleased.gml</script>
       <script>scripts\scr_WeaponParentDraw.gml</script>
       <script>scripts\scr_WeaponLMBPressed.gml</script>
+      <script>scripts\scr_WeaponParentCreate.gml</script>
     </scripts>
     <scripts name="TARGET">
       <script>scripts\scr_TargetCreate.gml</script>

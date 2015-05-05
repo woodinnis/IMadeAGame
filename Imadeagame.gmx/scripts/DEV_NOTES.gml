@@ -38,3 +38,10 @@ May the fourth be with us
     - All objects now have physics (rooms, Weapons, Targets)
         - Targets have 8000 density in order to avoid moving when hit
     - dragged, canShoot booleans now used to pre-check before firing
+    
+// May 5, 2015
+
+13:37   Click-to-place weapons functional
+        - Weapons no longer spawn on room start
+        - Clicking anywhere in the play area will spawn a weapon
+            - Slingshot mechanics are available immediately at spawn time
