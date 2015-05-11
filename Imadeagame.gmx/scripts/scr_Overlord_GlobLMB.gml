@@ -5,4 +5,19 @@ if(!instance_exists(objWeaponParent))
     spawnY = device_mouse_y(0);
             
     instance_create(spawnX, spawnY, G_currentWeapon);
+    
+    if(newTarget == objTargetDragon)
+    {   
+        with(currentTarget)
+        {
+            pd1 = point_direction(x,y, other.spawnX-15,other.spawnY-15);
+            pd2 = point_direction(x,y, other.spawnX+15,other.spawnY+15)
+            
+            ad = angle_difference(pd1, pd2);
+            
+            part_type_direction(partFireBreath,pd1-20,pd2+20,0,0);
+        }
+        
+        
+    }
 }

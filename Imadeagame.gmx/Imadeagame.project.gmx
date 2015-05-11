@@ -65,6 +65,7 @@
   <fonts name="fonts">
     <font>fonts\font_Title</font>
     <font>fonts\font_Info</font>
+    <font>fonts\font_debug</font>
   </fonts>
   <objects name="objects">
     <object>objects\objOverlord</object>

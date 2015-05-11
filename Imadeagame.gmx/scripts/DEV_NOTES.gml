@@ -55,3 +55,9 @@ May the fourth be with us
         
 16:38   objTargetFireHydrant now spawns a water jet that stops player motion
         - objHydrantShot is instantiated every 2 seconds
+        
+// May 11, 2015
+
+15:17   New particle added to objTargetDragon
+
+16:17   Configured particle emitter to fire in direction of mouse click
