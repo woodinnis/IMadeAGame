@@ -12,7 +12,7 @@ if(G_playerScore < G_winScore)
     else
     {
         // Assign the object name to a variable
-        newTarget = choose(objTargetDragon)//, objTargetICT, objTargetFlailMan, objTargetFireHydrant);
+        newTarget = choose(objTargetDragon, objTargetICT, objTargetFlailMan, objTargetFireHydrant);
         
         // Set target spawn locations based on height and width of the room, and the target
         targetSpawnX = room_width - sprite_get_width(newTarget);

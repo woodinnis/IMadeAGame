@@ -61,3 +61,8 @@ May the fourth be with us
 15:17   New particle added to objTargetDragon
 
 16:17   Configured particle emitter to fire in direction of mouse click
+
+17:00   FireBreath pariticle now only fires within a specified range
+        - Emitter is between the top and bottom of the sprite, on the "head" side
+        - Emitter will only change direction if LMB Click is within the specified range
+

@@ -33,7 +33,7 @@ part_type_scale(partFireBreath,2,1);
 part_type_color3(partFireBreath,255,33023,65535);
 part_type_alpha1(partFireBreath,0.80);
 part_type_speed(partFireBreath,1,1,0,0);
-part_type_direction(partFireBreath,45,110,0,0);
+part_type_direction(partFireBreath,200,240,0,0);
 part_type_gravity(partFireBreath,0,180);
 part_type_orientation(partFireBreath,0,0,0,0,1);
 part_type_blend(partFireBreath,1);
