@@ -18,7 +18,5 @@ if(!instance_exists(objWeaponParent))
             if(pd1 > 120 && pd2 < 270)
                 part_type_direction(partFireBreath,pd1-20,pd2+20,0,0);
         }
-        
-        
     }
 }

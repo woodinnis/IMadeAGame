@@ -65,4 +65,15 @@ May the fourth be with us
 17:00   FireBreath pariticle now only fires within a specified range
         - Emitter is between the top and bottom of the sprite, on the "head" side
         - Emitter will only change direction if LMB Click is within the specified range
+        
+// May 14, 2015
 
+10:22   Preparing to add bouncing to objWeaponParent
+        - Weapons should bounce off of walls, and certain obstacles (to be added later)
+        
+12:24   Basic bouncing physics implemented
+        - sprWeapon changed to sprWall
+        - objWeapon changed to objWall
+        - objWall made solid, and given physics properties
+        - F_wallBuilder function uses any object argument to build walls around the room
+        - move_bounce_solid(true) added to Create Event of objWeaponParent

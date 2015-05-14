@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprWeapon</sprite>
+    <sprite>sprites\sprWall</sprite>
     <sprites name="TARGET">
       <sprite>sprites\sprDragon</sprite>
       <sprite>sprites\sprTarget</sprite>
@@ -60,6 +60,9 @@
       <script>scripts\scr_HUDDrawInfo.gml</script>
       <script>scripts\scr_HelpHUD.gml</script>
     </scripts>
+    <scripts name="FUNCTIONS">
+      <script>scripts\F_wallBuilder.gml</script>
+    </scripts>
     <script>scripts\PARTICLES.gml</script>
   </scripts>
   <fonts name="fonts">
@@ -82,7 +85,6 @@
       <object>objects\objTargetFireHydrant</object>
     </objects>
     <objects name="WEAPON">
-      <object>objects\objWeaponDefault</object>
       <object>objects\objWeaponCountry</object>
       <object>objects\objWeaponHerring</object>
       <object>objects\objWeaponCoffee</object>
@@ -100,11 +102,12 @@
       <object>objects\objQuitBtn</object>
       <object>objects\objHelpBtn</object>
     </objects>
-    <object>objects\objHUD</object>
-    <object>objects\objMenuHUD</object>
     <objects name="SHOTS">
       <object>objects\objHydrantShot</object>
     </objects>
+    <object>objects\objMenuHUD</object>
+    <object>objects\objHUD</object>
+    <object>objects\objWall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_Start</room>
