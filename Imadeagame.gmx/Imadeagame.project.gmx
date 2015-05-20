@@ -62,6 +62,7 @@
     </scripts>
     <scripts name="FUNCTIONS">
       <script>scripts\F_wallBuilder.gml</script>
+      <script>scripts\F_obstBuilder.gml</script>
     </scripts>
     <script>scripts\PARTICLES.gml</script>
   </scripts>

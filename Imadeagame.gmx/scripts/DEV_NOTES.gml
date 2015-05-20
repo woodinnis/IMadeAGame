@@ -77,3 +77,10 @@ May the fourth be with us
         - objWall made solid, and given physics properties
         - F_wallBuilder function uses any object argument to build walls around the room
         - move_bounce_solid(true) added to Create Event of objWeaponParent
+        
+// May 20, 2015
+
+9:53    Added F_obstacleBuilder
+        - Obstacles can now be built using any existing game object.
+        - Heavily based on F_wallBuilder
+        - Only builds quad objects, but can be used n times to build almost anything

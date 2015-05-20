@@ -20,6 +20,8 @@ if(G_playerScore < G_winScore)
             
         // Set the current Target to a variable    
         currentTarget = instance_create(random(targetSpawnX), random(targetSpawnY), newTarget);
+        
+        F_obstBuilder(objWall,200,100,5,2);
     }
 }
 else

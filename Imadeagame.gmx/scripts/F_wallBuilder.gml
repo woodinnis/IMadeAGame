@@ -9,6 +9,7 @@ sprHigh     = sprite_get_height(object_get_sprite(wallObject));
 spawnCountW = room_width/sprWide;
 spawnCountH = room_height/sprHigh;
 
+// Build the walls
 if(x = 0)
 {
     for(i = 0; i <= spawnCountW; i++)
@@ -35,4 +36,3 @@ for(i = 0; i <= spawnCountH; i++)
     instance_create(x,y,wallObject);
     y += sprHigh;
 }
-
