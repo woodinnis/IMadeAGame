@@ -99,3 +99,15 @@ May the fourth be with us
         
 11:36   Fixed a minor bug where double-clicking would add extra force to a weapon
         - Reset canFire to false in scr_WeaponLMBReleased
+        
+11:56   Removed canShoot bool from OVERLORD
+        - Was causing the need for an extra click before a new weapon instance would spawn
+        
+12:19   Adjusted F_wallBuilder & F_obstBuilder 
+        - Now use internal variables instead of x/y for horizontal and vertical coordinates
+        
+12:30   Added shotCount & maxShots to Overlord
+        - OverlordStep now checks maxShots again shotCount
+        - Will prevent a new shot if shotCount >= maxShots
+        - Will end game and display "You Lose!" if shotCount >= maxShots
+        - maxShots is set in RoomStart Event

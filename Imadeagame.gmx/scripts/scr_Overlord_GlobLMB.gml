@@ -1,5 +1,5 @@
 // Create a new instance of the current weapon when the player clicks somewhere in the game field
-if(!instance_exists(objWeaponParent) && canShoot == true)
+if(!instance_exists(objWeaponParent))
 {
     spawnX = device_mouse_x(0);
     spawnY = device_mouse_y(0);
@@ -8,7 +8,6 @@ if(!instance_exists(objWeaponParent) && canShoot == true)
     
     shotCount++;
     
-    canShoot = false;
     // If target is a dragon, spawn FireBreath particle
     if(newTarget == objTargetDragon)
     {   
@@ -25,5 +24,5 @@ if(!instance_exists(objWeaponParent) && canShoot == true)
 }
 else
 {
-    canShoot = true;
+
 }

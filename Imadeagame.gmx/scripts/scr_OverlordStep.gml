@@ -2,7 +2,7 @@
 
 // If player score is less that current winning score continue to spawn new targets
 // Otherwise set win state to true
-if(G_playerScore < G_winScore)
+if(G_playerScore < G_winScore && shotCount < maxShots)
     {
     // If no target is present in the room, spawn a new target
     if(instance_exists(objTargetParent))
@@ -20,11 +20,13 @@ if(G_playerScore < G_winScore)
             
         // Set the current Target to a variable    
         currentTarget = instance_create(random(targetSpawnX), random(targetSpawnY), newTarget);
-        
-        F_obstBuilder(objWall,200,100,5,2);
     }
 }
-else
+else if(G_playerScore >= G_winScore)
 {
     playerWin = true;
+}
+else if(shotCount >= maxShots)
+{
+    playerLose = true;
 }

@@ -11,8 +11,8 @@ obstWide    = argument3;
 obstHigh    = argument4;
 
 // Set start coordinates
-x           = obstStartX;
-y           = obstStartY;
+spawnX      = obstStartX;
+spawnY      = obstStartY;
 
 // Get width/height of material to be used
 sprWide     = sprite_get_width(object_get_sprite(wallObject));
@@ -23,10 +23,10 @@ for(i = 0; i < obstWide; i++)
 {
     for(j = 0; j < obstHigh; j++)
     {
-        instance_create(x,y,obstObject);
-        y += sprHigh;
+        instance_create(spawnX,spawnY,obstObject);
+        spawnY += sprHigh;
     }
-    y = obstStartY;
-    x += sprWide;
+    spawnY = obstStartY;
+    spawnX += sprWide;
 }
 
