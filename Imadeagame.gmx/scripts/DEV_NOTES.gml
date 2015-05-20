@@ -84,3 +84,9 @@ May the fourth be with us
         - Obstacles can now be built using any existing game object.
         - Heavily based on F_wallBuilder
         - Only builds quad objects, but can be used n times to build almost anything
+        
+10:38   Added scr_WeaponCollObjWall
+        - Weapons now count bounces with any objWall
+            - Would be good to make this ANY object spawned by F_wallBuilder/F_obstBuilder
+        - Weapons are destroyed when BounceCount reaches maxBounce
+        - maxBounce is currently set in WeaponParentCreate, but can be set individually for each weapon

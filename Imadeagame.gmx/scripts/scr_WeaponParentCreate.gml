@@ -7,4 +7,10 @@ canFire = false;
 dragX = 0;
 dragY = 0;
 
+// Variables for the Collision Event with objWall
+BounceCount = 0;
+BounceTimer = 4;
+CanBounce = true;
+maxBounce = 6;
+
 move_bounce_solid(true);    // Bounce off of solid objects;

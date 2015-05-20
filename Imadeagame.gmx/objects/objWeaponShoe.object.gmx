@@ -31,6 +31,7 @@ event_inherited();
 // Set the movement speed
 mySpeed = 10;
 myDamage = 10;
+
 </string>
           </argument>
         </arguments>

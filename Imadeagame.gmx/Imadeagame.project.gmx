@@ -48,6 +48,7 @@
       <script>scripts\scr_WeaponParentDraw.gml</script>
       <script>scripts\scr_WeaponLMBPressed.gml</script>
       <script>scripts\scr_WeaponParentCreate.gml</script>
+      <script>scripts\scr_WeaponCollObjWall.gml</script>
     </scripts>
     <scripts name="TARGET">
       <script>scripts\scr_TargetCreate.gml</script>
@@ -63,6 +64,7 @@
     <scripts name="FUNCTIONS">
       <script>scripts\F_wallBuilder.gml</script>
       <script>scripts\F_obstBuilder.gml</script>
+      <script>scripts\F_DEBUG.gml</script>
     </scripts>
     <script>scripts\PARTICLES.gml</script>
   </scripts>
