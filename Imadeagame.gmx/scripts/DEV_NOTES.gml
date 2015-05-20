@@ -90,3 +90,9 @@ May the fourth be with us
             - Would be good to make this ANY object spawned by F_wallBuilder/F_obstBuilder
         - Weapons are destroyed when BounceCount reaches maxBounce
         - maxBounce is currently set in WeaponParentCreate, but can be set individually for each weapon
+        
+11:12   Adjusted physics properties of all weapons
+        - Densities adjusted to ~kg/m^2 of each weapon
+            - WeaponCountry is the only exception
+        - Restitution to 0.9
+        - All other properties to 0
