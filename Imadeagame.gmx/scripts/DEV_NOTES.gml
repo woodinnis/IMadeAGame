@@ -96,3 +96,6 @@ May the fourth be with us
             - WeaponCountry is the only exception
         - Restitution to 0.9
         - All other properties to 0
+        
+11:36   Fixed a minor bug where double-clicking would add extra force to a weapon
+        - Reset canFire to false in scr_WeaponLMBReleased

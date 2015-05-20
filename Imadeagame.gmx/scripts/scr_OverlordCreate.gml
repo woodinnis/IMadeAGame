@@ -10,7 +10,13 @@ globalvar G_currentWeapon;  // Global variable for current weapon
 globalvar G_playerScore;    // Global variable to contain the player's current score
 globalvar G_winScore;       // Global variable to represent a winning score
 
-G_currentWeapon = objWeaponShoe;
-G_playerScore = 0;
+// Set starting variables
+G_currentWeapon = objWeaponShoe;    // Starting weapon
+G_playerScore = 0;                  // Stating score
+shotCount = 0;                      // Shot count
+canShoot = true;
 
+// Win/Lose check
 playerWin = false;
+
+
