@@ -5,9 +5,7 @@ if(!instance_exists(objWeaponParent))
     spawnY = device_mouse_y(0);
             
     instance_create(spawnX, spawnY, G_currentWeapon);
-    
-    shotCount++;
-    
+        
     // If target is a dragon, spawn FireBreath particle
     if(newTarget == objTargetDragon)
     {   

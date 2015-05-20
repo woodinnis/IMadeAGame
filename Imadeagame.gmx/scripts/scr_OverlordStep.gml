@@ -3,14 +3,11 @@
 // If player score is less that current winning score continue to spawn new targets
 // Otherwise set win state to true
 if(G_playerScore < G_winScore && shotCount < maxShots)
-    {
+{
     // If no target is present in the room, spawn a new target
-    if(instance_exists(objTargetParent))
+    if(!instance_exists(objTargetParent))
     {
         // Do nothing
-    }
-    else
-    {
         // Assign the object name to a variable
         newTarget = choose(objTargetDragon, objTargetICT, objTargetFlailMan, objTargetFireHydrant);
         
@@ -26,7 +23,8 @@ else if(G_playerScore >= G_winScore)
 {
     playerWin = true;
 }
-else if(shotCount >= maxShots)
+
+if(shotCount >= maxShots)
 {
     playerLose = true;
 }

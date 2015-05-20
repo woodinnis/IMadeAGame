@@ -122,3 +122,9 @@ May the fourth be with us
             - move_add
         - Created objRedir to use as new obstacle
         - Renamed sprTargetDefault to sprRedir
+        
+16:00   Win/Lose screen now has a menu button
+        Removed menu button from main game area
+        Added shotCount/maxShots info to HUD Draw GUI event
+        
+16:30   shotCount now increments on the Destroy Event of objWeaponParent
