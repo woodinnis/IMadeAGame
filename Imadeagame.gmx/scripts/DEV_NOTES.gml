@@ -111,3 +111,14 @@ May the fourth be with us
         - Will prevent a new shot if shotCount >= maxShots
         - Will end game and display "You Lose!" if shotCount >= maxShots
         - maxShots is set in RoomStart Event
+
+15:17   Attempted to build new obstacles which cause weapons to "curve" around them
+        - Tried multiple built-in physics functions without success
+            - physics_apply_force
+            - physics_apply_local_force
+            - physics_apply_impulse
+            - physics_apply_local_impulse
+            - physics_mass_propreties
+            - move_add
+        - Created objRedir to use as new obstacle
+        - Renamed sprTargetDefault to sprRedir

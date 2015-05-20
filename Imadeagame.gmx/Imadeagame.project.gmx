@@ -7,9 +7,9 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprWall</sprite>
+    <sprite>sprites\sprRedir</sprite>
     <sprites name="TARGET">
       <sprite>sprites\sprDragon</sprite>
-      <sprite>sprites\sprTarget</sprite>
       <sprite>sprites\sprICT</sprite>
       <sprite>sprites\sprFlailMan</sprite>
       <sprite>sprites\sprFireHydrant</sprite>
@@ -112,6 +112,7 @@
     <object>objects\objMenuHUD</object>
     <object>objects\objHUD</object>
     <object>objects\objWall</object>
+    <object>objects\objRedir</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_Start</room>
