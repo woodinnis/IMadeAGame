@@ -128,3 +128,9 @@ May the fourth be with us
         Added shotCount/maxShots info to HUD Draw GUI event
         
 16:30   shotCount now increments on the Destroy Event of objWeaponParent
+
+17:15   Added a pause screen
+        - Pressing spacebar or RMB will enter the pause screen
+        - The same button will exit the pause screen
+
+17:40   A Menu Button appears on the pause screen

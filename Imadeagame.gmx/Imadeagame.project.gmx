@@ -43,6 +43,7 @@
       <script>scripts\scr_OverlordStep.gml</script>
       <script>scripts\scr_Overlord_GlobLMB.gml</script>
       <script>scripts\scr_OverlordDrawGUI.gml</script>
+      <script>scripts\scr_Pause.gml</script>
     </scripts>
     <scripts name="WEAPON">
       <script>scripts\scr_WeaponLMBReleased.gml</script>

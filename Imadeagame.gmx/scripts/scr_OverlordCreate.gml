@@ -3,6 +3,9 @@
 // Apply physics to the world
 physics_world_create(1/32);
 
+// Set mobile specific variables
+device_mouse_dbclick_enable(true);  // Detect a double-left click as a right click
+
 // Set the cursor to invisible
 //window_set_cursor(cr_none);
 
@@ -15,6 +18,7 @@ G_currentWeapon = objWeaponShoe;    // Starting weapon
 G_playerScore = 0;                  // Stating score
 shotCount = 0;                      // Shot count
 maxShots = 0;                       // Total shots allowed
+isPaused = false;                   // Is the game paused
 
 // Win/Lose check
 playerWin = false;
