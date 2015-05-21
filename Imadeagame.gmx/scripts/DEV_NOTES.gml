@@ -134,3 +134,10 @@ May the fourth be with us
         - The same button will exit the pause screen
 
 17:40   A Menu Button appears on the pause screen
+
+May 21, 2015
+
+10:45   Created F_targetSpawn
+        - Now responsible for spawning all targets in the play area
+        - Removed several lines of code in OverlordStep
+        - Replaced with call to F_targetSpawn
