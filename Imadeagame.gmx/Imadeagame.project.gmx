@@ -68,6 +68,7 @@
       <script>scripts\F_obstBuilder.gml</script>
       <script>scripts\F_DEBUG.gml</script>
       <script>scripts\F_targetSpawn.gml</script>
+      <script>scripts\F_levelBuilder.gml</script>
     </scripts>
     <script>scripts\PARTICLES.gml</script>
   </scripts>

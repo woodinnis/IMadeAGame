@@ -141,3 +141,11 @@ May 21, 2015
         - Now responsible for spawning all targets in the play area
         - Removed several lines of code in OverlordStep
         - Replaced with call to F_targetSpawn
+        
+12:30   Created levelBuilder
+        - Will eventually take over level creation functions
+        - Will read level data from *.ini file
+            - Will use obstBuilder, targetSpawn
+        - Currently incomplete
+            - Not 100% sure how to parse obstacle data
+            - No target data written
