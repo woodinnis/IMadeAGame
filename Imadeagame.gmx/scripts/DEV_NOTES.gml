@@ -163,3 +163,8 @@ June 1, 2015
         - WeaponParentCollObjWall
         - Physics removed from object
         - Physics removed from game world
+        
+15:00   DragonShot now functional
+        - Fires from TargetDragon (x,y)
+        - Has adjustable speed, timer
+        - Collision with WeaponParent destroys weapon
