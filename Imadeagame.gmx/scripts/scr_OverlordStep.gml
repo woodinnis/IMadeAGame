@@ -8,7 +8,7 @@ if(G_playerScore < G_winScore && shotCount < maxShots)
     if(!instance_exists(objTargetParent))
     {   
         // I'd still like to find a way to place all these names into an array
-        currentTarget = F_targetSpawn(choose(objTargetDragon))//, objTargetICT, objTargetFlailMan, objTargetFireHydrant));
+        currentTarget = F_targetSpawn(choose(/*objTargetDragon, objTargetICT, objTargetFlailMan, */objTargetFireHydrant));
     }
 }
 else if(G_playerScore >= G_winScore)

@@ -35,7 +35,7 @@ pointValue = 5;
       </action>
     </event>
   </events>
-  <PhysicsObject>-1</PhysicsObject>
+  <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
   <PhysicsObjectShape>0</PhysicsObjectShape>
   <PhysicsObjectDensity>8000</PhysicsObjectDensity>
@@ -46,8 +46,5 @@ pointValue = 5;
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints>
-    <point>16,64</point>
-    <point>64,64</point>
-  </PhysicsShapePoints>
+  <PhysicsShapePoints/>
 </object>

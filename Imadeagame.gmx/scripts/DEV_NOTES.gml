@@ -168,3 +168,8 @@ June 1, 2015
         - Fires from TargetDragon (x,y)
         - Has adjustable speed, timer
         - Collision with WeaponParent destroys weapon
+        
+15:20   HydrantShot no longer uses physics
+
+16:05   Started to build redirection obstacle
+        Removed physics from remaining game objects
