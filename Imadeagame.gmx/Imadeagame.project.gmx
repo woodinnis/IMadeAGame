@@ -9,13 +9,14 @@
     <sprite>sprites\sprWall</sprite>
     <sprite>sprites\sprRedir</sprite>
     <sprites name="TARGET">
+      <sprites name="SHOT">
+        <sprite>sprites\sprHydrantShot</sprite>
+        <sprite>sprites\sprFireBall</sprite>
+      </sprites>
       <sprite>sprites\sprDragon</sprite>
       <sprite>sprites\sprICT</sprite>
       <sprite>sprites\sprFlailMan</sprite>
       <sprite>sprites\sprFireHydrant</sprite>
-      <sprites name="SHOT">
-        <sprite>sprites\sprHydrantShot</sprite>
-      </sprites>
     </sprites>
     <sprites name="WEAPON">
       <sprite>sprites\sprWeaponShoe</sprite>
@@ -85,6 +86,10 @@
       <object>objects\objTargetParent</object>
     </objects>
     <objects name="TARGET">
+      <objects name="SHOTS">
+        <object>objects\objHydrantShot</object>
+        <object>objects\objDragonShot</object>
+      </objects>
       <object>objects\objTargetDefault</object>
       <object>objects\objTargetDragon</object>
       <object>objects\objTargetICT</object>
@@ -108,9 +113,6 @@
       <object>objects\objMenuBtn</object>
       <object>objects\objQuitBtn</object>
       <object>objects\objHelpBtn</object>
-    </objects>
-    <objects name="SHOTS">
-      <object>objects\objHydrantShot</object>
     </objects>
     <object>objects\objMenuHUD</object>
     <object>objects\objHUD</object>

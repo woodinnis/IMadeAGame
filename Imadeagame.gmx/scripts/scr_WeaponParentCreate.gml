@@ -2,6 +2,8 @@
 
 dragged = false;
 canFire = false;
+moveSpeed = 0;
+speedLimit = 10;
 
 // Set the drag coordinates to 0
 dragX = 0;
@@ -12,5 +14,3 @@ BounceCount = 0;
 BounceTimer = 4;
 CanBounce = true;
 maxBounce = 6;
-
-move_bounce_solid(true);    // Bounce off of solid objects;

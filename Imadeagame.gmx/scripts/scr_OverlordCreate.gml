@@ -1,7 +1,7 @@
 // Creation code for the Overlord
 
 // Apply physics to the world
-physics_world_create(1/32);
+//physics_world_create(1/32);
 
 // Set mobile specific variables
 device_mouse_dbclick_enable(true);  // Detect a double-left click as a right click

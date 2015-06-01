@@ -149,3 +149,17 @@ May 21, 2015
         - Currently incomplete
             - Not 100% sure how to parse obstacle data
             - No target data written
+            
+June 1, 2015
+
+11:22   Created a fireball shot for objTargetDragon
+        - objDragonShot
+        - Currently not shooting correctly
+        
+14:35   Rebuilt slingshot
+        - WeaponLMBPressed
+        - WeaponLMBReleased
+        - WeaponParentCreate
+        - WeaponParentCollObjWall
+        - Physics removed from object
+        - Physics removed from game world
