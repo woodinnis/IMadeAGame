@@ -173,3 +173,10 @@ June 1, 2015
 
 16:05   Started to build redirection obstacle
         Removed physics from remaining game objects
+        
+June 03, 2015
+
+14:05   Obstacles now cause weapons to alter course
+        - Single instances of obstacles cause a weapon to arc into another direction
+        - Multiple instances close together can cause unpredictable course changes
+        - Redir renamed RedirSmall
