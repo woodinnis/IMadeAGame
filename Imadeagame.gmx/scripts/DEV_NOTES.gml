@@ -180,3 +180,7 @@ June 03, 2015
         - Single instances of obstacles cause a weapon to arc into another direction
         - Multiple instances close together can cause unpredictable course changes
         - Redir renamed RedirSmall
+        
+16:30   Refined obstacles
+        - Orbit script now called from obstacle, not weapon
+        - All obstacles now cause weapons to orbit
