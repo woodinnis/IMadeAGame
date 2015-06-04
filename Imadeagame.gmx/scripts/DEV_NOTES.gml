@@ -184,3 +184,10 @@ June 03, 2015
 16:30   Refined obstacles
         - Orbit script now called from obstacle, not weapon
         - All obstacles now cause weapons to orbit
+        
+June 04, 2015
+
+11:35   Created ObstParent
+        - Groups of obstacles now create a collective gravity field
+        - Multiple instances grouped together or close together alter a weapon's direction according to the size and shape of the group
+        

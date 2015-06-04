@@ -1,32 +1,27 @@
+/**
+//  
+//  Function for the construction of obstacles in levels
+//  Retrieves name of material to be used in obstacle construction, and creates an array
+//
+**/
+
 // Variable declaration and Settings
 
-obstObject  = argument0; //  Material to use to build the obstacle
+obstacle = argument0
 
-// Start coordinates of the obstacle
-obstStartX  = argument1;
-obstStartY  = argument2;
+obstCount = instance_number(obstacle);
 
-// Width and height of obstacle
-obstWide    = argument3;
-obstHigh    = argument4;
+A_Obst[obstCount - 1] = 0;
+A_ObstLoc[obstCount - 1,0] = 0;
 
-// Set start coordinates
-spawnX      = obstStartX;
-spawnY      = obstStartY;
-
-// Get width/height of material to be used
-sprWide     = sprite_get_width(object_get_sprite(wallObject));
-sprHigh     = sprite_get_height(object_get_sprite(wallObject));
-
-// Build an obstacle
-for(i = 0; i < obstWide; i++)
+for(i = 0; i < obstCount; i++)
 {
-    for(j = 0; j < obstHigh; j++)
-    {
-        instance_create(spawnX,spawnY,obstObject);
-        spawnY += sprHigh;
-    }
-    spawnY = obstStartY;
-    spawnX += sprWide;
+    A_Obst[i] = instance_find(obstacle, i);
+}
+
+for(j = 0; j < obstCount; j++)
+{
+    A_ObstLoc[j,0] = A_Obst[j].x;
+    A_ObstLoc[j,1] = A_Obst[j].y;
 }
 

@@ -91,6 +91,7 @@
       <object>objects\objWeaponParent</object>
       <object>objects\objToolbarParent</object>
       <object>objects\objTargetParent</object>
+      <object>objects\objObstParent</object>
     </objects>
     <objects name="TARGET">
       <objects name="SHOTS">
