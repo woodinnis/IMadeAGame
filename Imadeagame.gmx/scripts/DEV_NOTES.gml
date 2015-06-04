@@ -190,4 +190,9 @@ June 04, 2015
 11:35   Created ObstParent
         - Groups of obstacles now create a collective gravity field
         - Multiple instances grouped together or close together alter a weapon's direction according to the size and shape of the group
-        
+
+12:30   Created a second level
+        - Advancing to new levels functions
+        - Targets show up in new levels
+        - Score needs to be reset
+        - Shot count needs to be reset

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(room_Main);   // Go to the main game room
+            <string>room_goto(room_Level001);   // Go to the main game room
 </string>
           </argument>
         </arguments>

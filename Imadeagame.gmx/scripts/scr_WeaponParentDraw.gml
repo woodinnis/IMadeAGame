@@ -23,9 +23,3 @@ if(mouse_check_button(mb_left))
     }
     draw_text(dragX,dragY,"CLICK!");
 }
-
-if(point_in_circle(objRedirSmall.x, objRedirSmall.y, x, y, 128))
-{
-    draw_set_font(font_Title);
-    draw_text(x+10,y, "OBSTACLE!");
-}

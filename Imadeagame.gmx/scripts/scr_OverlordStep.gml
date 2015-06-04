@@ -13,7 +13,10 @@ if(G_playerScore < G_winScore && shotCount < maxShots)
 }
 else if(G_playerScore >= G_winScore)
 {
-    playerWin = true;
+    if(room_next(room) != -1)
+    {
+        room_goto(room_next(room));
+    }
 }
 
 if(shotCount >= maxShots)

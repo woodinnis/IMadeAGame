@@ -122,14 +122,15 @@
       <object>objects\objQuitBtn</object>
       <object>objects\objHelpBtn</object>
     </objects>
-    <object>objects\objMenuHUD</object>
     <object>objects\objHUD</object>
+    <object>objects\objMenuHUD</object>
     <object>objects\objWall</object>
     <object>objects\objRedirSmall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_Start</room>
-    <room>rooms\room_Main</room>
+    <room>rooms\room_Level001</room>
+    <room>rooms\room_Level002</room>
   </rooms>
   <constants number="5">
     <constant name="LEVEL1_WIN">20</constant>

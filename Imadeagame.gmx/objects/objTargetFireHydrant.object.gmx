@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>// Code to execute on the creation of a new target
 
-myStrength = 150;
+myStrength = 10;
 pointValue = 10;
 
 alarm[0] = room_speed * 2;
