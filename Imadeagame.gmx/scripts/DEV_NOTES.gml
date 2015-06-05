@@ -215,3 +215,8 @@ June 05, 2015
         - Adjusted Overlord to reset G_playerScore and shotCount at Room End Event
         - Added G_shotLimit
         - Created NUMBERS script to set G_winScore and G_shotLimit at Room Start Event
+        
+13:55   Put a limit on weapon spawn
+        - Can no longer spawn weapons directly on top of targets
+        
+        Minor tweaks to comments

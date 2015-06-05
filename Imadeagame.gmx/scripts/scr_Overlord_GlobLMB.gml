@@ -1,10 +1,12 @@
 // Create a new instance of the current weapon when the player clicks somewhere in the game field
 if(!instance_exists(objWeaponParent))
 {
-    spawnX = device_mouse_x(0);
-    spawnY = device_mouse_y(0);
-            
-    instance_create(spawnX, spawnY, G_currentWeapon);
+    if(!point_in_circle(device_mouse_x(0), device_mouse_y(0), objTargetParent.x, objTargetParent.y, 128))
+    {
+        spawnX = device_mouse_x(0);
+        spawnY = device_mouse_y(0);
+        instance_create(spawnX, spawnY, G_currentWeapon);
+    }        
         
     // If target is a dragon, spawn FireBreath particle
     if(newTarget == objTargetDragon)
@@ -19,8 +21,4 @@ if(!instance_exists(objWeaponParent))
                 part_type_direction(partFireBreath,pd1-20,pd2+20,0,0);
         }
     }
-}
-else
-{
-
 }

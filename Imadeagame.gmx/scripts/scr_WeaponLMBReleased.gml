@@ -1,8 +1,6 @@
-// When LMB is released apply a physics impulse
+// When LMB is released begin moving
 if(canFire)
-{
-    //physics_apply_local_impulse(-dragX,-dragY,x-dragX,y-dragY);
-    
+{   
     moveSpeed = distance_to_point(dragX, dragY);
     if(moveSpeed >= speedLimit)
         moveSpeed = speedLimit;
