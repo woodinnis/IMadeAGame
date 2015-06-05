@@ -7,8 +7,12 @@ if(G_playerScore < G_winScore && shotCount < maxShots)
     // If no target is present in the room, spawn a new target
     if(!instance_exists(objTargetParent))
     {   
+        if(instance_exists(objTargetSpawn))
+        {
+            currentTarget = F_targetSpawn(objTargetSpawn);
+        }
+        newTarget = currentTarget;
         // I'd still like to find a way to place all these names into an array
-        currentTarget = F_targetSpawn(choose(/*objTargetDragon, objTargetICT, objTargetFlailMan, */objTargetFireHydrant));
     }
 }
 else if(G_playerScore >= G_winScore)

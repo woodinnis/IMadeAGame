@@ -17,6 +17,7 @@
       <sprite>sprites\sprICT</sprite>
       <sprite>sprites\sprFlailMan</sprite>
       <sprite>sprites\sprFireHydrant</sprite>
+      <sprite>sprites\sprTargetSpawn</sprite>
     </sprites>
     <sprites name="WEAPON">
       <sprite>sprites\sprWeaponShoe</sprite>
@@ -98,7 +99,7 @@
         <object>objects\objHydrantShot</object>
         <object>objects\objDragonShot</object>
       </objects>
-      <object>objects\objTargetDefault</object>
+      <object>objects\objTargetSpawn</object>
       <object>objects\objTargetDragon</object>
       <object>objects\objTargetICT</object>
       <object>objects\objTargetFlailMan</object>

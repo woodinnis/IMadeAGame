@@ -201,3 +201,12 @@ June 04, 2015
         - Also checks to see if views are enabled, will enable views if not
         
 17:30   Basic target repositioning system implemented
+
+June 05, 2015
+
+10:05   Rebuilt target spawning system
+        - Now uses spawn points instead of RNG coordinates
+        - F_targetSpawn now takes a single argument 
+            - The object to be used to calculate a spawn point
+        - Created objTargetSpawn to serve as spawn point object
+        - Created sprTargetSpawn to serce as temporary sprite for spawn indication
