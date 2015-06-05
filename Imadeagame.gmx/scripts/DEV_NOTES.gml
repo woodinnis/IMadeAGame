@@ -196,3 +196,8 @@ June 04, 2015
         - Targets show up in new levels
         - Score needs to be reset
         - Shot count needs to be reset
+        
+16:05   OverlordRoomStart now resets score and shot count
+        - Also checks to see if views are enabled, will enable views if not
+        
+17:30   Basic target repositioning system implemented

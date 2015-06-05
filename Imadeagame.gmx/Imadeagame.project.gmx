@@ -131,6 +131,7 @@
     <room>rooms\room_Start</room>
     <room>rooms\room_Level001</room>
     <room>rooms\room_Level002</room>
+    <room>rooms\room_Level003</room>
   </rooms>
   <constants number="5">
     <constant name="LEVEL1_WIN">20</constant>
