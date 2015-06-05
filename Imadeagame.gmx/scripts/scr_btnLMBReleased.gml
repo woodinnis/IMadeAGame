@@ -10,6 +10,7 @@ switch(object_get_name(object_index))
     // Open the level select menu
     case "objLvlBtn":
     {
+        room_goto(room_LevelSelect);
         break;
     }
     // Return to the main menu

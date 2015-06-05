@@ -25,13 +25,21 @@
       <sprite>sprites\sprWeaponHerring</sprite>
       <sprite>sprites\sprWeaponCountry</sprite>
     </sprites>
-    <sprite>sprites\sprArrow</sprite>
     <sprites name="BUTTONS">
+      <sprites name="LEVELS">
+        <sprite>sprites\sprLvl001</sprite>
+        <sprite>sprites\sprLvl002</sprite>
+        <sprite>sprites\sprLvl003</sprite>
+        <sprite>sprites\sprLvl004</sprite>
+        <sprite>sprites\sprLvl005</sprite>
+      </sprites>
       <sprite>sprites\sprStart</sprite>
+      <sprite>sprites\sprLvlSelect</sprite>
       <sprite>sprites\sprExit</sprite>
       <sprite>sprites\sprMenu</sprite>
       <sprite>sprites\sprHelp</sprite>
     </sprites>
+    <sprite>sprites\sprArrow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -98,6 +106,7 @@
       <object>objects\objToolbarParent</object>
       <object>objects\objTargetParent</object>
       <object>objects\objObstParent</object>
+      <object>objects\objLvlBtnParent</object>
     </objects>
     <objects name="TARGET">
       <objects name="SHOTS">
@@ -123,11 +132,18 @@
       <object>objects\objToolbarHerring</object>
     </objects>
     <objects name="BUTTONS">
+      <objects name="LEVELS">
+        <object>objects\objLvl001</object>
+        <object>objects\objLvl002</object>
+        <object>objects\objLvl003</object>
+        <object>objects\objLvl004</object>
+        <object>objects\objLvl005</object>
+      </objects>
       <object>objects\objStartBtn</object>
+      <object>objects\objLvlBtn</object>
       <object>objects\objMenuBtn</object>
       <object>objects\objQuitBtn</object>
       <object>objects\objHelpBtn</object>
-      <object>objects\objLvlBtn</object>
     </objects>
     <object>objects\objHUD</object>
     <object>objects\objMenuHUD</object>
