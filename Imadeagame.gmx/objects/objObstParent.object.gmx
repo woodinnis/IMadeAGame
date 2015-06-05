@@ -29,6 +29,8 @@
 orbitRange = 72;
 orbitSpeed = 8;
 
+isCC = false;   // Should this obstacle rotate counter-clockwise
+
 F_obstBuilder(objRedirSmall);
 
 </string>

@@ -220,3 +220,8 @@ June 05, 2015
         - Can no longer spawn weapons directly on top of targets
         
         Minor tweaks to comments
+        
+14:10   Obstacles can now be set to rotate counter-clockwise
+        - Added isCC boolean to obstCreate default false
+        - Set to true in creation code
+            - Either in room, or on a by-instance basis

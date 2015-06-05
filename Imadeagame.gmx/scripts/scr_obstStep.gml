@@ -5,7 +5,10 @@ if(instance_exists(objWeaponParent))
     {
         with(objWeaponParent)
         {
-            F_orbit(other.x, other.y, other.orbitRange, other.orbitSpeed);
+            if(other.isCC)
+                F_orbit(other.x, other.y, other.orbitRange, -other.orbitSpeed);
+            else
+                F_orbit(other.x, other.y, other.orbitRange, other.orbitSpeed);
         }
               
     }
