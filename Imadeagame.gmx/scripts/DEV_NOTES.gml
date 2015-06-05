@@ -225,3 +225,9 @@ June 05, 2015
         - Added isCC boolean to obstCreate default false
         - Set to true in creation code
             - Either in room, or on a by-instance basis
+            
+14:40   Centralized all major button functions
+        - Created scr_btnLMBReleased to receive all LMB Released Events
+        
+        Started building a Level Select Menu
+        - Created objLvlBtn

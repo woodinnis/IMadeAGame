@@ -80,6 +80,9 @@
       <script>scripts\F_levelBuilder.gml</script>
       <script>scripts\F_orbit.gml</script>
     </scripts>
+    <scripts name="BUTTONS">
+      <script>scripts\scr_btnLMBReleased.gml</script>
+    </scripts>
     <script>scripts\PARTICLES.gml</script>
     <script>scripts\scr_obstStep.gml</script>
   </scripts>
@@ -124,6 +127,7 @@
       <object>objects\objMenuBtn</object>
       <object>objects\objQuitBtn</object>
       <object>objects\objHelpBtn</object>
+      <object>objects\objLvlBtn</object>
     </objects>
     <object>objects\objHUD</object>
     <object>objects\objMenuHUD</object>
@@ -132,6 +136,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_Start</room>
+    <room>rooms\room_LevelSelect</room>
     <room>rooms\room_Level001</room>
     <room>rooms\room_Level002</room>
     <room>rooms\room_Level003</room>
