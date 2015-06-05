@@ -210,3 +210,8 @@ June 05, 2015
             - The object to be used to calculate a spawn point
         - Created objTargetSpawn to serve as spawn point object
         - Created sprTargetSpawn to serce as temporary sprite for spawn indication
+
+11:50   Started building more levels
+        - Adjusted Overlord to reset G_playerScore and shotCount at Room End Event
+        - Added G_shotLimit
+        - Created NUMBERS script to set G_winScore and G_shotLimit at Room Start Event

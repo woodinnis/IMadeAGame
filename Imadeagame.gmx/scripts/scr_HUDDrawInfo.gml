@@ -1,8 +1,8 @@
 // Code to draw player information on the screen
 draw_set_colour(c_silver);
 
-shotCount = string(objOverlord.shotCount + 1);
-maxShots = string(objOverlord.maxShots);
+shotCount = string(objOverlord.shotCount);
+maxShots = string(G_shotLimit);
 
 // Display Score
 draw_set_font(font_Info);
