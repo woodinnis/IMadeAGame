@@ -6,8 +6,8 @@ spawnX = 0;
 spawnY = 0;
 sprWide     = sprite_get_width(object_get_sprite(wallObject));
 sprHigh     = sprite_get_height(object_get_sprite(wallObject));
-spawnCountW = room_width/sprWide;
-spawnCountH = room_height/sprHigh;
+spawnCountW = view_wview[0]/sprWide;
+spawnCountH = view_hview[0]/sprHigh;
 
 // Build the walls
 if(spawnX = 0)

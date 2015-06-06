@@ -50,6 +50,12 @@
   <scripts name="scripts">
     <script>scripts\DEV_NOTES.gml</script>
     <scripts name="OVERLORD">
+      <scripts name="HUD">
+        <script>scripts\scr_HUDCreate.gml</script>
+        <script>scripts\scr_HUDDrawFrame.gml</script>
+        <script>scripts\scr_HUDDrawInfo.gml</script>
+        <script>scripts\scr_HelpHUD.gml</script>
+      </scripts>
       <script>scripts\scr_OverlordCreate.gml</script>
       <script>scripts\scr_OverlordRoomStart.gml</script>
       <script>scripts\scr_OverlordStep.gml</script>
@@ -73,12 +79,6 @@
       <script>scripts\scr_TargetCreate.gml</script>
       <script>scripts\scr_TargetCollisionWeapon.gml</script>
       <script>scripts\scr_TargetStep.gml</script>
-    </scripts>
-    <scripts name="HUD">
-      <script>scripts\scr_HUDCreate.gml</script>
-      <script>scripts\scr_HUDDrawFrame.gml</script>
-      <script>scripts\scr_HUDDrawInfo.gml</script>
-      <script>scripts\scr_HelpHUD.gml</script>
     </scripts>
     <scripts name="FUNCTIONS">
       <script>scripts\F_wallBuilder.gml</script>
@@ -145,8 +145,6 @@
       <object>objects\objQuitBtn</object>
       <object>objects\objHelpBtn</object>
     </objects>
-    <object>objects\objHUD</object>
-    <object>objects\objMenuHUD</object>
     <object>objects\objWall</object>
     <object>objects\objRedirSmall</object>
   </objects>

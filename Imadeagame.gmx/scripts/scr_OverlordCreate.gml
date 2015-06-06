@@ -18,6 +18,7 @@ globalvar G_shotLimit;      // Global variable indicating the maximum number of 
 G_currentWeapon = objWeaponShoe;    // Starting weapon
 G_playerScore = 0;                  // Starting score
 G_shotLimit = 0;                    // Starting shot limit
+G_winScore = 10000;                 // Win score for the current level
 shotCount = 0;                      // Shot count
 maxShots = 0;                       // Total shots allowed
 isPaused = false;                   // Is the game paused

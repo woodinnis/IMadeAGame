@@ -1,10 +1,11 @@
 // Code to draw player information on the screen
-draw_set_colour(c_silver);
 
-shotCount = string(objOverlord.shotCount);
-maxShots = string(G_shotLimit);
-
-// Display Score
-draw_set_font(font_Info);
-draw_text(wide - block, y + 32, "SCORE: " + string(G_playerScore));
-draw_text(wide - block, y + 48, "SHOTS: " + shotCount + "/" + maxShots);
+if(room != room_Start && room != room_LevelSelect)
+{
+    draw_set_colour(c_silver);
+        
+    // Display Score
+    draw_set_font(font_Info);
+    draw_text(wide - block, y + 32, "SCORE: " + string(G_playerScore));
+    draw_text(wide - block, y + 48, "SHOTS: " + string(shotCount) + "/" + string(G_shotLimit));
+}

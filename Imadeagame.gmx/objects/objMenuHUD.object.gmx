@@ -26,10 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>// Code to run on creation of the HUD
-display_set_gui_size(room_width,room_height);
 
-wide = display_get_gui_width()
-high = display_get_gui_height()
+view_wview[0] = display_get_width();
+view_hview[0] = display_get_height();
+
+wide = view_wview[0];
+high = view_hview[0];
+
+display_set_gui_size(display_get_width(),display_get_height());
 </string>
           </argument>
         </arguments>
@@ -59,12 +63,7 @@ draw_rectangle(x, y, 3, high, false);
 draw_rectangle(wide - 3, y, wide, high, false);
 draw_rectangle(x ,high - 3, wide, high, false);
 
-draw_set_valign(fa_middle);
-draw_set_halign(fa_center);
 
-draw_set_colour(c_black);
-draw_set_font(font_Title);
-draw_text(wide/2, high/2, "Hey Look! I made a game!");
 </string>
           </argument>
         </arguments>

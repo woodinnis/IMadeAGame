@@ -234,3 +234,11 @@ June 05, 2015
         
 15:30   Level Select Menu added
         - Of course this created a whole bunch of other problems
+        
+18:45   Made several steps towards resolution independance
+        - Removed several unneccesary objects and consolidated their functions into Overlord
+        - Adjusted wide/high variables to get values from view[0]
+        - view[0] gets a value from gui_size
+        - Pause menu still not 100% transitioned
+            - Menu button draws at weird screen location
+            - Unclear as to why, all variables appear to be set properly
